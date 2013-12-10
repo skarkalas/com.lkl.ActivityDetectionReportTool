@@ -31,7 +31,7 @@ public class MainActivity extends Activity
 	boolean backThreadRunning=false;
 	boolean networkReady=true;
 	public final String HOST="193.61.44.50";
-	public final String URI="http://"+HOST+"/com.lkl.projects.eclipsedata/rest/service";
+	public final String URI="http://"+HOST+"/com.lkl.eclipsedata/rest/service";
 	public final int PORT=8282;
 	public final int TIMEOUT=2000;		//wait time for background net check thread
 	public final int INTERVAL=5000;		//wait time for background data loader thread
